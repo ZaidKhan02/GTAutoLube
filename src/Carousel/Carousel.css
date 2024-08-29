@@ -1,0 +1,92 @@
+.carousel {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    color: white;
+    z-index: 30;
+    flex-wrap: wrap;
+}
+
+.carousel-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.carousel-left h2 {
+    font-size: 95px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.carousel-left button {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 20px;
+    border: 1px solid rgb(221, 36, 36);
+    background-color: rgb(221, 36, 36);
+    color: white;
+    border-radius: 50px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    transition: border 0.5s ease, background-color 0.5s ease;
+}
+
+.carousel-left button:hover {
+    background-color: rgba(3, 246, 246, 0.813);
+    border: 1px solid rgba(3, 246, 246, 0.813);
+}
+
+.carousel-right {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-right .mobil-img {
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 120px;
+}
+
+.carousel-right .gulf-img {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.carousel-right .toyota-img {
+    margin-left: 50px;
+    width: 300px;
+}
+
+.carousel-right img {
+    width: 450px;
+    height: 200px;
+}
+
+.carousel-right .emzone-img {
+    margin-top: 15px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-header {
+    color: rgba(3, 246, 246, 0.813);
+}
+
+
+@media (max-width: 768px) {
+    .carousel {
+        display: none;
+    }
+
+}

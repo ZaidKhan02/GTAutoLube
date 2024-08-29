@@ -1,0 +1,31 @@
+.sidebar-title {
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sidebar-label {
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding-left: 35px;
+    display: block;
+    position: relative;
+}
+
+.sidebar-label input {
+    cursor: pointer;
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.oil {
+    margin-left: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .oil {
+        margin-left: 0;
+        font-size: x-small;
+        margin-top: -25px;
+    }
+}

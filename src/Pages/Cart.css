@@ -1,0 +1,186 @@
+article {
+    width: 60%;
+    margin: auto;
+}
+
+.cart-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-product {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.cart-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.cart-price {
+    font-size: larger;
+    font-weight: lighter;
+}
+
+
+.cart-box div:nth-child(2) button {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid rgb(57, 177, 252);
+    background-color: white;
+    color: rgb(57, 177, 252);
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+.cart-box div:nth-child(2) button:hover {
+    background-color: rgb(251, 250, 250);
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.remove-button {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+.remove-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.email-form {
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 1px solid black;
+    outline: none;
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.submit-btn {
+    border-radius: 50px;
+    padding: 14px 60px;
+    color: white;
+    background-color: rgb(236, 3, 3);
+    border: 1.5px solid rgb(236, 3, 3);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: rgb(236, 3, 3);
+    background-color: white;
+    border: 1.5px solid rgb(236, 3, 3);
+}
+
+.message {
+    height: 40px;
+    width: 250px;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    background-color: rgb(105, 161, 105);
+    font-size: 1.1rem;
+    color: white;
+    padding-left: 10px;
+    z-index: 40;
+}
+
+.error {
+    height: 40px;
+    width: 250px;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    background-color: rgb(176, 81, 81);
+    font-size: 1.1rem;
+    color: white;
+    padding-left: 5px;
+    z-index: 40;
+}
+
+@media (max-width: 768px) {
+    article {
+        margin-left: 150px;
+    }
+
+    .cart-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart-product {
+        font-size: large;
+    }
+
+    .cart-amount button {
+        margin-top: 5px;
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+
+    .cart-pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-right: 180px;
+    }
+
+    .cart-price {
+        font-size: large;
+    }
+
+    .remove-button {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 10px;
+        padding: 5px 0px;
+        margin-right: 15px;
+    }
+
+    .total {
+        font-size: x-large;
+    }
+
+    form input,
+    form textArea {
+        font-size: small;
+        width: 200px;
+    }
+}

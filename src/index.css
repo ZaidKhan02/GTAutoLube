@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+li {
+  list-style: none;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: white;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.warning {
+  height: 40px;
+  width: 250px;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  background-color: rgb(202, 80, 80);
+  font-size: 1.1rem;
+  color: white;
+  padding-left: 10px;
+  z-index: 40;
+}

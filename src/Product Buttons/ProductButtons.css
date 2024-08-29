@@ -1,0 +1,32 @@
+.products-section {
+    margin-top: 55rem;
+    margin-left: 21.2rem;
+}
+
+.products-title {
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-btn {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .products-section {
+        margin-top: 0;
+        margin-left: 150px;
+    }
+
+    .product-btn {
+        font-size: x-small;
+        padding: 5px 10px;
+    }
+}

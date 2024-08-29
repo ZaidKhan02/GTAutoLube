@@ -1,0 +1,11 @@
+.tools {
+    margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+    .tools {
+        margin-left: 0;
+        font-size: x-small;
+        margin-top: -15px;
+    }
+}

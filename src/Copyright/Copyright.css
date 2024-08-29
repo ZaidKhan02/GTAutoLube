@@ -1,0 +1,96 @@
+.copyright-container {
+    background-color: lightgray;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.copyright-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.header-elements {
+    color: gray;
+    justify-content: space-around;
+}
+
+.gta-tools,
+.socials,
+.customer-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.facebook-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.facebook-icon:hover {
+    color: #1877F2;
+}
+
+.copyright {
+    color: gray;
+    margin-left: 19.3rem;
+}
+
+.header-logo {
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    font-style: italic;
+    width: 40%;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    letter-spacing: 0;
+}
+
+.address {
+    color: rgb(97, 97, 97)
+}
+
+@media (max-width: 768px) {
+    .copyright-container {
+        margin-left: 130px
+    }
+
+    .copyright-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .header,
+    .header-logo {
+        font-size: small;
+    }
+
+    .header-elements,
+    .address {
+        font-size: 12px;
+    }
+
+    .copyright {
+        margin-top: 5px;
+        margin-left: 6px;
+        font-size: 12px;
+    }
+}
