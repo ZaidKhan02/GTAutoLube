@@ -193,6 +193,11 @@
         margin-top: -40px;
     }
 
+    .img-box img {
+        width: 150px;
+        height: 150px;
+    }
+
     .product-detail h2 {
         font-size: 14px;
     }
