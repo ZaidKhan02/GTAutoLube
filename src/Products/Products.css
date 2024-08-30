@@ -213,4 +213,8 @@
     .product-detail button {
         margin-bottom: 15px;
     }
+
+    .close {
+        color: black;
+    }
 }
