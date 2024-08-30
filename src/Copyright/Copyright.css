@@ -3,8 +3,7 @@
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.2rem;
 }
 
 .copyright-content {
@@ -15,13 +14,15 @@
 
 .header {
     font-weight: bolder;
-    font-size: larger;
+    font-size: 15px;
     color: white;
+    margin-top: 5px;
 }
 
 .header-elements {
     color: gray;
     justify-content: space-around;
+    font-size: 12px;
 }
 
 .gta-tools,
@@ -44,7 +45,8 @@
 
 .copyright {
     color: gray;
-    margin-left: 19.3rem;
+    margin-left: 14.3rem;
+    font-size: 12px;
 }
 
 .header-logo {
@@ -54,8 +56,9 @@
     padding: 5px;
     color: white;
     font-style: italic;
-    width: 40%;
+    width: 55%;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 .red {
@@ -64,7 +67,8 @@
 }
 
 .address {
-    color: rgb(97, 97, 97)
+    color: rgb(97, 97, 97);
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {

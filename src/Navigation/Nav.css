@@ -10,19 +10,19 @@
 }
 
 .search-input {
-    width: 40rem;
+    width: 500px;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 12px 20px;
-    font-size: large;
+    padding: 10px 15px;
+    font-size: 14px;
     color: black;
     outline: none;
-    margin-left: 310px;
+    margin-left: 290px;
 }
 
 .cart-icon {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 2.5rem;
     margin: 0px 2rem -25px 4rem;
 }
 
@@ -33,6 +33,7 @@
     border-radius: 50px;
     position: absolute;
     margin-left: -36px;
+    font-size: 12px;
 }
 
 .cart-icon:hover {
@@ -45,6 +46,7 @@
 }
 
 .nav-header {
+    font-size: 15px;
     font-weight: 400;
     margin-top: 15px;
 

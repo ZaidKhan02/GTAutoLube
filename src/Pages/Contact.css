@@ -16,16 +16,17 @@
 
 .contact-section {
     margin-top: 50px;
+    margin-left: 30px;
 }
 
 .contact-title {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 40px;
     font-weight: lighter;
 }
 
 .contact-header {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
     /*100*/
     margin-bottom: 10px;
@@ -33,7 +34,7 @@
 
 .contact-section p {
     margin-bottom: 20px;
-    font-size: large;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -44,11 +45,13 @@
 .contact-info {
     display: flex;
     justify-content: space-between;
+    margin-left: 30px;
 }
 
 .contact-email {
     display: flex;
     justify-content: space-between;
+    font-size: 15px;
 }
 
 .contact-right {
@@ -56,7 +59,7 @@
 }
 
 .contact-info p {
-    font-size: large;
+    font-size: 15px;
 }
 
 .contact-logo {
@@ -67,7 +70,7 @@
     position: relative;
     color: white;
     font-style: italic;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .red {

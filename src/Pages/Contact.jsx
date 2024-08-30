@@ -20,7 +20,6 @@ function Contact() {
                     <section className="contact-right">
                         <h3 className="contact-header">Prefer to contact via email?</h3>
                         <div className="contact-email">
-
                             <p>abdullahkhan1601@gmail.com</p>
                         </div>
                     </section>

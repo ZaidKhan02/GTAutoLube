@@ -26,12 +26,12 @@ li {
 
 .warning {
   height: 40px;
-  width: 250px;
+  width: 200px;
   position: fixed;
   right: 0;
   top: 10%;
   background-color: rgb(202, 80, 80);
-  font-size: 1.1rem;
+  font-size: 13px;
   color: white;
   padding-left: 10px;
   z-index: 40;
